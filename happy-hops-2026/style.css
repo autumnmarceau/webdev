@@ -23,6 +23,8 @@ Main Text:
 /* ========= Font Variables ========= */
 :root{
 --header-font: 'Delius Unicase', cursive;
+--body-font: 'Helvetica', sans-serif;
+--link-font: 'Helvetica', sans-serif;
 }
 
 /* Background */
@@ -36,10 +38,11 @@ body{
 
 h1{
   font-size: 12px;
-  font-family: serif; 
+  font-family: var(--header-font);
   color: var(--strawberry-red);
   text-align: center; 
   position: relative; 
   margin-bottom: 10px; 
 }
+
 
