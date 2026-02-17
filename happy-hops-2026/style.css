@@ -1,0 +1,45 @@
+
+
+/* =========
+Color Variables 
+
+Background : Tan 
+Main Text: 
+=========*/ 
+
+/*Fonts*/
+
+
+
+:root{
+--pacific-blue: rgb(9, 153, 164); /*background color*/
+--strawberry-red: #FD002Dff; /*header color*/
+--tan: #E7C49Cff; /*background color*/
+--lavender-blush: #FFEAF1ff;
+--princeton-orange: #FF8C27ff;
+--amber-flame: #FFB822ff;
+}
+
+/* ========= Font Variables ========= */
+:root{
+--header-font: 'Delius Unicase', cursive;
+}
+
+/* Background */
+
+body{
+  background-color: var(--tan);
+  margin: 0;
+  padding: 20px;
+}
+/* Headers */
+
+h1{
+  font-size: 12px;
+  font-family: serif; 
+  color: var(--strawberry-red);
+  text-align: center; 
+  position: relative; 
+  margin-bottom: 10px; 
+}
+
